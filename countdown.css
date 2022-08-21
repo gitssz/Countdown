@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-image:url("rainbow.jpeg");
+    background-size:cover; 
+    /* background-color: #FFFDDE; */
+    /* background-image: url("8.avif");
+/* background-image:url(https://images.pexels.com/photos/1470405/pexels-photo-1470405.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    /* backdrop-filter:blur(12px); */
+}
+span{
+    color: rgb(129, 124, 124);
+}
+.titleText{
+    padding:150px;
+    font-size: 4.3rem;
+    /* line-height: 5px; */
+    font-family: 'Rubik Dirt', cursive;
+}
+
+/* countdown div */
+.row{
+    display: flex;
+justify-content:center;
+padding:60px 0 100px;
+color:black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-family: 'Rubik Iso', cursive;
+}
+.time{
+
+    margin: 10px;
+    height: 110px;
+    width:  110px;
+    border-radius: 27%;
+    /* padding-top:50px ; *
+    /* background-color:#C4D7E0; */
+    /* background-color: #D9D7F1; */
+    /* border: solid black 1px; */
+}
+.time-h1{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bolder;
+    font-size:3.2rem;
+}
